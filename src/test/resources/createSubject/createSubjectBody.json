@@ -1,0 +1,16 @@
+{
+  "account_uid": "5b05f55ce0916b7494c39e9f",
+  "job_description_uid": "%s",
+  "job_uid": "%s",
+  "panel_uid": "5b6a1c6ff7f528f91061bbf0",
+  "batch_uid": "5b6a1c6ff7f528f91061bbf1",
+  "workflow_uid": "5b6b20b300a7cb2b59192eda",
+  "workflow_unit_uid": "5b6b20b300a7cb2b59192edd",
+  "store_uid": "5b05f55cd848903509dd48e3",
+  "profile_uid": "%s",
+  "channel_uid": "5b05f55ce0916b7494c39e9d",
+  "channel_sms_role": "DEFAULT",
+  "status": "NEW",
+  "profile_alias": "50212345678",
+  "optin_keyword": "testplan01"
+}

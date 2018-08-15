@@ -1,0 +1,56 @@
+{
+  "name":"Test Plan 01",
+  "account_uid":"5b05f55ce0916b7494c39e9f",
+  "batch_size":1000,
+  "store_uid":"5b05f55cd848903509dd48e3",
+  "workflow_uid":"5b6b20b300a7cb2b59192eda",
+  "status":"NOT_STARTED",
+  "strategy_uid":"56e0753fd20a116837bd79de",
+  "sending_channels":[
+    {
+      "identifier":"50230000821",
+      "_id":"5b05f55ce0916b7494c39e9d",
+      "channel_uid":"5b05f55ce0916b7494c39e9d",
+      "type":"SMS"
+    }
+  ],
+  "interaction_channels":[
+    {
+      "identifier":"50230000821",
+      "_id":"5b05f55ce0916b7494c39e9d",
+      "channel_uid":"5b05f55ce0916b7494c39e9d",
+      "type":"SMS"
+    },
+    {
+      "identifier":"WEB-50230000821",
+      "_id":"5b05f55ce0916b7494c39e97",
+      "channel_uid":"5b05f55ce0916b7494c39e97",
+      "type":"HTML"
+    }
+  ],
+  "external_uid":"5b6b20b25128e70836a31a7e",
+  "max_sessions_per_profile":100,
+  "goal":{
+    "workflows_expected":100,
+    "duration":172800000,
+    "filter_from_unit_uid":null
+  },
+  "files":[
+
+  ],
+  "scheduled_for":"2018-08-08T16:56:18.595Z",
+  "external_source":"STUDY",
+  "panel_source":"DATA_STORE",
+  "by_keyword":{
+    "workflow_uid":"5b6b20b300a7cb2b59192eda",
+    "workflow_unit_uid":"5b6b20b300a7cb2b59192edd",
+    "keyword":"%s",
+    "allow_join_by_keyword":false
+  },
+  "panel_filter":"{\"first_name\": [\"Sergei\"], \"accounts\": [\"5b05f55ce0916b7494c39e9f\"]}",
+  "public_web_access":{
+    "enabled":true,
+    "short_uri":"http://csm-s.ubiquo.io/yMEBu",
+    "full_uri":"http://csm-m.ubiquo.io/o/%s"
+  }
+}
